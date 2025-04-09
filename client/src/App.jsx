@@ -1,15 +1,26 @@
-import { useState } from "react"
-import reactLogo from "./assets/react.svg"
-import viteLogo from "/vite.svg"
-import "./App.css"
+import { Outlet, useLocation } from "react-router-dom";
 
 function App() {
-  const [count, setCount] = useState(0)
+
+  const location = useLocation();
+
+  const renderHeader = () => {
+    if (location.pathname === "/") {
+      return <header />;
+    } else {
+      return <div />;
+    }
+  };
 
   return (
     <>
+      {renderHeader()}
+      <main>
+        <Outlet></Outlet>
+      </main>
+      <footer></footer>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
