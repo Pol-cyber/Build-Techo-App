@@ -1,11 +1,3 @@
-
-
-
-export function AboutPage(){
-
-    return(
-        <div>
-            
-        </div>
-    )
+export function AboutPage() {
+  return <div>Hello about</div>
 }
