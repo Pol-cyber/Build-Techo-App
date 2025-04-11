@@ -1,6 +1,6 @@
 import styles from "./info-block.module.css"
-import logo from "../../../../../assets/logo.png"
-import paymentMethods from "../../../../../assets/paymentMethods.png"
+import logo from "../../assets/logo.png"
+import paymentMethods from "../../assets/paymentMethods.png"
 
 export function InfoBlock() {
   return (

@@ -5,22 +5,22 @@ import { AboutPage } from "../pages/About/about"
 import { JobApplyPage } from "../pages/JobApply/job-apply"
 
 export const router = createBrowserRouter([
-    {
+  {
+    path: "/",
+    element: <App></App>,
+    children: [
+      {
         path: "/",
-        element: <App></App>,
-        children:[
-            {
-                path: '/',
-                element: <HomePage/>
-            }
-        ]
-    },
-    {
+        element: <HomePage />,
+      },
+      {
         path: "/about",
-        element: <AboutPage/>
-    },
-    {
+        element: <AboutPage />,
+      },
+      {
         path: "/jobapply",
-        element: <JobApplyPage/>
-    }
+        element: <JobApplyPage />,
+      },
+    ],
+  },
 ])
