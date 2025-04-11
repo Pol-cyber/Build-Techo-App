@@ -82,7 +82,7 @@
   height: 100%;
   display: flex;
   justify-content: space-between;
-  gap: 10px
+  gap: 10px;
 }
 
 .getQuote {
@@ -98,10 +98,19 @@
   padding: 5px;
 }
 
+.getQuote a {
+  text-decoration: none;
+}
 
-.navigationIcons{
+.navigationIcons {
   display: flex;
   gap: 20px;
   align-items: center;
   justify-content: center;
+}
+
+.sicialInnerTitile {
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
