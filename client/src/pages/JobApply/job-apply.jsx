@@ -1,9 +1,9 @@
 import { GlobalHeader } from "../../modules/layout/global-header/global-header";
 
-export function AboutPage() {
+export function JobApplyPage() {
   return (
     <>
-      <GlobalHeader title="About us"></GlobalHeader>
+      <GlobalHeader title="Job Apply"></GlobalHeader>
     </>
   );
 }

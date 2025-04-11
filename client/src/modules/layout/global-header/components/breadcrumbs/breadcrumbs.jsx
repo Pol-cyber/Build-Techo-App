@@ -3,7 +3,7 @@ import styles from "./breadcrumbs.module.css";
 import React from "react";
 
 
-export function Breadcrumbs() {
+export function Breadcrumbs({title}) {
   const location = useLocation();
   const pathnames = location.pathname.split("/").filter((x) => x);
 
@@ -23,7 +23,7 @@ export function Breadcrumbs() {
               <Link
                 to={to}
               >
-                {part.charAt(0).toUpperCase() + part.slice(1)}
+                {isLast ? title : part.charAt(0).toUpperCase() + part.slice(1)}
               </Link>
             </span>
             {!isLast > 0 && <DoubleArrow />}

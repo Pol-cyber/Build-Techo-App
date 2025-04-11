@@ -11,7 +11,7 @@ export function GlobalHeader({ title }) {
       <InnerHeader></InnerHeader>
       <div className={styles.titleCenter}>
         <p className={styles.titleCenterText}>{title}</p>
-        <Breadcrumbs/>
+        <Breadcrumbs title={title}/>
       </div>
       <div className={`${styles.overlay}`} />
       <img
