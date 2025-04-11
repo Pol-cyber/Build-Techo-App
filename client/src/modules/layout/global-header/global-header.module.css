@@ -3,6 +3,7 @@
 .globalHeader {
     height: 578px;
     width: 100vw;
+<<<<<<< HEAD
     position: relative;
 }
 
@@ -15,11 +16,14 @@
     top: 0;
     left: 0;
     right: 0;
+=======
+>>>>>>> ca24d23e9ac56d8980933800e31de2c0a2e1f3fa
 }
 
 .imageHeader {
     height: 100%;
     width: 100%;
+<<<<<<< HEAD
     z-index: -10;
     height: 100%;
     position: absolute;
@@ -47,4 +51,6 @@
     font-size: 60px;
     line-height: 78px;
     font-weight: 700;
+=======
+>>>>>>> ca24d23e9ac56d8980933800e31de2c0a2e1f3fa
 }

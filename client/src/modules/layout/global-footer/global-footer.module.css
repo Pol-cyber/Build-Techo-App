@@ -1,0 +1,35 @@
+footer {
+  height: 600px;
+  width: 100%;
+  padding-bottom: 40px;
+  background-color: var(--footer-color);
+}
+
+.footerContent {
+  max-width: 1240px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.contactAndNewslatterContainer {
+  display: flex;
+  width: 100%;
+}
+
+.mainContentContainer {
+  border-top: 2px solid var(--footer-text-secondary-color);
+  border-bottom: 2px solid var(--footer-text-secondary-color);
+  padding: 70px 0px;
+  display: flex;
+}
+
+.linksContainer {
+  display: flex;
+  width: 775px;
+}
+
+.copyright {
+  color: var(--primary-white);
+  text-align: center;
+  padding: 15px 0;
+}

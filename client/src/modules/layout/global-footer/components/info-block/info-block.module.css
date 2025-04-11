@@ -1,0 +1,23 @@
+.infoContainer {
+  width: 380px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-right: 75px;
+}
+
+.logoImg {
+  width: 148px;
+  height: 33px;
+}
+
+.description {
+  font-size: 18px;
+  color: var(--primary-white);
+}
+
+.paymentsImg {
+  width: 271px;
+  height: 58px;
+  margin-left: -21px;
+}

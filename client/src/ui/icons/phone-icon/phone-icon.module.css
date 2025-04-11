@@ -1,0 +1,19 @@
+.phoneIconContainer {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary-white);
+}
+
+.phoneIconContent {
+  width: 40%;
+  height: 40%;
+}
+
+.phoneIcon {
+  width: 100%;
+  height: 1005;
+}
