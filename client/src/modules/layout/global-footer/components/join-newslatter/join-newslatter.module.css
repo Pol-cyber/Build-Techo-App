@@ -1,0 +1,46 @@
+.joinNewslatterContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+  padding-left: 55px;
+  border-left: 1px solid var(--footer-text-secondary-color);
+}
+
+.joinNewslatterText {
+  font-size: 19px;
+  font-weight: bold;
+  color: var(--primary-white);
+  width: 100px;
+}
+
+.joinNewslatterInput {
+  height: 57px;
+  background-color: var(--footer-secondary-color);
+  color: var(--primary-white);
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  width: 400px;
+  padding: 0 160px 0 40px;
+  font-size: 16px;
+}
+
+.joinNewslatterInput::placeholder {
+  color: var(--footer-text-secondary-color);
+  font-size: 16px;
+}
+
+.joinNewslatterButton {
+  background-color: var(--footer-tertiary-color);
+  border: none;
+  outline: none;
+  color: var(--primary-white);
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  height: 57px;
+  width: 120px;
+  border-radius: 30px;
+  margin-left: -120px;
+}

@@ -1,15 +1,15 @@
-import { Outlet, useLocation } from "react-router-dom";
-import { GlobalHeader } from "./modulеs/layout/global-header/build-global-header";
+import { Outlet, useLocation } from "react-router-dom"
+import { GlobalHeader } from "./modules/layout/global-header/build-global-header"
+import { GlobalFooter } from "./modules/layout/global-footer"
 
 function App() {
-
-  const location = useLocation();
+  const location = useLocation()
 
   const renderHeader = () => {
     if (location.pathname === "/") {
-      return <GlobalHeader />;
+      return <GlobalHeader />
     }
-  };
+  }
 
   return (
     <>
@@ -17,9 +17,9 @@ function App() {
       <main>
         <Outlet></Outlet>
       </main>
-      <footer></footer>
+      <GlobalFooter />
     </>
-  );
+  )
 }
 
-export default App;
+export default App
