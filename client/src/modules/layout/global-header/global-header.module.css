@@ -1,0 +1,50 @@
+
+
+.globalHeader {
+    height: 578px;
+    width: 100vw;
+    position: relative;
+}
+
+.overlay{
+    opacity: 0.8;
+    background-color: var(--header-color);
+    z-index: -1;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.imageHeader {
+    height: 100%;
+    width: 100%;
+    z-index: -10;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.titleCenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 303px;
+    z-index: 3;
+}
+
+.titleCenterText {
+    color: var(--primary-white);
+    font-size: 60px;
+    line-height: 78px;
+    font-weight: 700;
+}

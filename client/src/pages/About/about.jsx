@@ -1,3 +1,5 @@
+import { GlobalHeader } from "../../modules/layout/global-header/global-header";
+
 export function AboutPage() {
-  return <div>Hello about!!!!</div>
+  return <GlobalHeader title="Hello"></GlobalHeader>
 }

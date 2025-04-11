@@ -1,5 +1,5 @@
 import { Outlet, useLocation } from "react-router-dom";
-import { GlobalHeader } from "./modulеs/layout/global-header/build-global-header";
+import { GlobalHeader } from "./modules/layout/global-header/global-header";
 
 function App() {
 
@@ -7,7 +7,7 @@ function App() {
 
   const renderHeader = () => {
     if (location.pathname === "/") {
-      return <GlobalHeader />;
+      return <header />;
     }
   };
 

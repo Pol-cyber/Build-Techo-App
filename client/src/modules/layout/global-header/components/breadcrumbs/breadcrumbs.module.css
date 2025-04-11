@@ -1,0 +1,16 @@
+
+
+
+.breadcrumbs {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--primary-white);
+    line-height: 28px;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.breadcrumbs a {
+    text-decoration: none;
+}
