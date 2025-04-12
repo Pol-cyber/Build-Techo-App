@@ -1,0 +1,19 @@
+.portfolioButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 46px;
+  padding: 0 31px;
+  text-transform: uppercase;
+  border: 1px solid var(--tetriary-gray);
+  border-radius: 30px;
+  background-color: var(--primary-white);
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.isActive {
+  background-color: var(--primary-orange);
+  color: var(--primary-white);
+  border: none;
+}

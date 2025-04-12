@@ -1,0 +1,32 @@
+.introContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 18px;
+}
+
+.subtitleContent {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.introSubtitle {
+  color: var(--primary-orange);
+}
+
+.introContent {
+  display: flex;
+  justify-content: space-between;
+  color: var(--primary-black);
+}
+
+.title {
+  font-size: 55px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.description {
+  width: 516px;
+}

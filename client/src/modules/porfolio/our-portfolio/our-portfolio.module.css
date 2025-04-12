@@ -1,0 +1,10 @@
+.prtfolioContainer {
+  width: 1240px;
+  margin: 0 auto;
+}
+
+.categoryButtons {
+  display: flex;
+  gap: 16px;
+  margin-top: 30px;
+}
