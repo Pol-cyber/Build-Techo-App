@@ -1,9 +1,9 @@
-import { GlobalHeader } from "../../modules/layout/global-header/global-header";
+import { ApplyForJob } from "../../modules/layout/apply-for-job";
 
 export function JobApplyPage() {
   return (
     <>
-      <GlobalHeader title="Job Apply"></GlobalHeader>
+      <ApplyForJob></ApplyForJob>
     </>
   );
 }
