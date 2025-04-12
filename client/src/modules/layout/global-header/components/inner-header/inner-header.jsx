@@ -6,8 +6,8 @@ import { TwoRightArrow } from "../icons/two-right-arrow";
 import { ZoomIcon } from "../icons/zoom-icon";
 import { BasketIcon } from "../icons/basket-icon";
 import { ThunderIcon } from "../icons/thunder";
-import { MapPinIcon } from "../icons/maps-pin";
-import { MailIcon } from "../icons/mail";
+import { MapPinIcon } from "../../../../../ui/icons/maps-pin";
+import { MailIcon } from "../../../../../ui/icons/mail";
 
 
 export function InnerHeader() {
