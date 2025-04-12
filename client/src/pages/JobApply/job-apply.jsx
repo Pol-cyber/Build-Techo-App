@@ -1,4 +1,4 @@
-import { ApplyForJob } from "../../modules/layout/apply-for-job";
+import { ApplyForJob } from "../../modules/apply-for-job";
 
 export function JobApplyPage() {
   return (

@@ -1,5 +1,5 @@
 import styles from "./apply-for-job.module.css";
-import fourLine from "../../../assets/fourLine.png";
+import fourLine from "../../assets/fourLine.png";
 import { ApplyForm } from "./components/form/";
 
 export function ApplyForJob() {

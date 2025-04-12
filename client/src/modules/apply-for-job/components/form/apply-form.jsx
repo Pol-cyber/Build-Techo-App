@@ -1,8 +1,7 @@
 import { useState } from "react";
-import { ArrowDown } from "../../icons/arrow-down";
 import styles from "./apply-form.module.css";
 import { formFileds } from "./constants";
-import { UiButton } from "../../../../../ui/button/ui-Button";
+import { UiButton } from "../../../../ui/button/ui-Button";
 import { toCamelCase } from "../../helpers/to-camel-case";
 
 export function ApplyForm() {
