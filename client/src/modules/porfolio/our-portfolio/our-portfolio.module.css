@@ -1,4 +1,5 @@
 .prtfolioContainer {
+  padding: 120px 0;
   width: 1240px;
   margin: 0 auto;
 }
@@ -7,4 +8,12 @@
   display: flex;
   gap: 16px;
   margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.cardsContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 30px;
+  column-gap: 24px;
 }

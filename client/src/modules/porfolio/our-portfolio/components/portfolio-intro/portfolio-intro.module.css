@@ -11,6 +11,11 @@
   gap: 10px;
 }
 
+.introImg {
+  width: 14px;
+  height: 22px;
+}
+
 .introSubtitle {
   color: var(--primary-orange);
 }
