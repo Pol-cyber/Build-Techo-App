@@ -10,10 +10,20 @@
   background-color: var(--primary-white);
   font-size: 15px;
   font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s;
 }
 
 .isActive {
   background-color: var(--primary-orange);
   color: var(--primary-white);
-  border: none;
+  border: 1px solid var(--primary-orange);
+}
+
+.portfolioButton:hover {
+  background-color: var(--tetriary-gray);
+}
+
+.isActive:hover {
+  background-color: var(--secondary-orange);
 }
