@@ -1,0 +1,21 @@
+.errorNotSection {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 95px 0 25px 0;
+  gap: 60px
+}
+
+.errorImage {
+    width: 55%;
+    max-width: 1000px;
+    max-height: 900px;
+}
+
+.errorTitle {
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 65px;
+}

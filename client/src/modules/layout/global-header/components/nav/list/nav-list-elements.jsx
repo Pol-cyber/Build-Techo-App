@@ -7,19 +7,23 @@ export function NavElements() {
   return (
     <nav className={styles.navigationMenu}>
       <ul className={styles.navigationMenuUl}>
-        {Object.keys(navElement).map((value, index) => {
+        {navElement.map((value, index) => {
           return (
             <li key={index} className={styles.navigationLi}>
-              <Link href="#">{value}</Link>
-              {navElement[value] && (
+              {value.link ? (
+                <Link to={value.link}>{value.title}</Link>
+              ) : (
+                <p>{value.title}</p>
+              )}
+              {value.subMenu && (
                 <>
                   <span className={styles.arrow}>
                     <ArrowDown />
                   </span>
                   <ul className={styles.subMenu}>
-                    {navElement[value].map((subItem, subIndex) => (
+                    {value.subMenu.map((subItem, subIndex) => (
                       <li key={subIndex}>
-                        <Link href={subItem.link}>{subItem.title}</Link>
+                        <Link to={subItem.link}>{subItem.title}</Link>
                       </li>
                     ))}
                   </ul>

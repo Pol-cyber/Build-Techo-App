@@ -1,7 +1,6 @@
 import { useState } from "react";
 import styles from "./apply-form.module.css";
 import { formFileds } from "./constants";
-import { UiButton } from "../../../../ui/button/ui-Button";
 import { toCamelCase } from "../../helpers/to-camel-case";
 
 export function ApplyForm() {
@@ -66,7 +65,7 @@ export function ApplyForm() {
       </div>
       <textarea className={styles.formTextAread}></textarea>
       <div className={styles.formButoon}>
-        <UiButton text={"Submit now"} type="submit" />
+        <button className={styles.formButton} type="submit">Submit now</button>
       </div>
     </form>
   );

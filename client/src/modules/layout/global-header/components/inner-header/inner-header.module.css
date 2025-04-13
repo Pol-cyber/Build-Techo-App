@@ -102,6 +102,10 @@
   text-decoration: none;
 }
 
+.getQuote a:hover {
+  text-decoration: underline;
+}
+
 .navigationIcons {
   display: flex;
   gap: 20px;

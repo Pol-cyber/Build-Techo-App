@@ -1,9 +1,9 @@
 import { Link, useLocation } from "react-router-dom";
 import styles from "./breadcrumbs.module.css";
 import React from "react";
+import { headerTitle } from "../../constants";
 
-
-export function Breadcrumbs({title}) {
+export function Breadcrumbs({ title, isDefinedPath }) {
   const location = useLocation();
   const pathnames = location.pathname.split("/").filter((x) => x);
 
@@ -12,18 +12,21 @@ export function Breadcrumbs({title}) {
       <Link to="/">Home</Link>
       {pathnames.length > 0 && <DoubleArrow />}
 
-      {pathnames.map((part, index) => {
+      {!isDefinedPath && <p>404 - Not Found</p>}
+
+      {isDefinedPath && pathnames.map((part, index) => {
         const to = `/${pathnames.slice(0, index + 1).join("/")}`;
         const isLast = index === pathnames.length - 1;
 
         return (
           <React.Fragment key={to}>
             <span>
-              {index > 0 && <span> / </span>}
-              <Link
-                to={to}
-              >
-                {isLast ? title : part.charAt(0).toUpperCase() + part.slice(1)}
+              <Link to={to}>
+                {isLast
+                  ? title
+                  : headerTitle[part]
+                  ? headerTitle[part]
+                  : part.charAt(0).toUpperCase() + part.slice(1)}
               </Link>
             </span>
             {!isLast > 0 && <DoubleArrow />}
