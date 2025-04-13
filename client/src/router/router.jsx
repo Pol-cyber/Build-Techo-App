@@ -4,6 +4,7 @@ import { HomePage } from "../pages/Home/home"
 import { AboutPage } from "../pages/About/about"
 import { JobApplyPage } from "../pages/JobApply/job-apply"
 import { PortfolioPage } from "../pages/Portfolio"
+import { CareerPage } from "../pages/Career"
 
 export const router = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ export const router = createBrowserRouter([
       {
         path: "/portfolio",
         element: <PortfolioPage />,
+      },
+      {
+        path: "/career",
+        element: <CareerPage />,
       },
     ],
   },
